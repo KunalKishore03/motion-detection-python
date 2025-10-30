@@ -27,4 +27,3 @@ Motion detection in action:
 
 Iis way to operate is less trivial than the previous one, but the results are identical if not more accurate in the previous method. I inspired myself of the [Motion-tracker]("https://github.com/mattwilliamson/Motion-Tracker/") by Matt Williamson for the operations and filters to apply on the image but all the rest is different. The idea in this method is to find the contours of the moving objects and calculate the area of all of them. Then the average of the surface changing is compared with the total surface of the image and the alarm is triggered if it exceed the given threshold. Note the code shown below does not implement the recording system as it is the case on the previous example, but it can be made easily.
 
-The result of applying it can be seen here: https://www.youtube.com/watch?v=sRIdyfh3054
