@@ -17,8 +17,8 @@ The trivial idea is to compute the difference between two frames apply a thresho
 
 Motion detection in action:
 
-![Motion Detection Frame 1](screenshot1.png)
-![Motion Detection Frame 2](screenshot2.png)
+![Motion Detection Frame 1](Screenhot1.png)
+![Motion Detection Frame 2](Screenshot2.png)
 
 
 
