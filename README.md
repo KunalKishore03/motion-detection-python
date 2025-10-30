@@ -13,9 +13,14 @@ The trivial idea is to compute the difference between two frames apply a thresho
 * in the run method no motion can be detected in the first 5 second because it is almost the time needed for the webcam to adjust the focus and the luminosity which imply lot's of changes on the image
 * processImage: contains all the images operations applied to the image
 * somethingHasMoved: The image iteration to count black pixels is contained in this method
+## 📸 Screenshots
+
+Motion detection in action:
+
+![Motion Detection Frame 1](screenshot1.png)
+![Motion Detection Frame 2](screenshot2.png)
 
 
-The result of applying it can be seen here: https://www.youtube.com/watch?v=-RUu3EcielI
 
 
 ## The smart way ##
